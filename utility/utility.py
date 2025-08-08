@@ -2,6 +2,10 @@ import logging
 
 import logging
 
+
+def dummy_file():
+    pass
+ 
 def setup_logging(log_file_name):
     logFormatter = logging.Formatter("%(asctime)s [%(threadName)-12.12s] [%(levelname)-5.5s] %(message)s")
     rootLogger = logging.getLogger()
